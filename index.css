@@ -69,3 +69,124 @@ body {
     position: relative;
     left: 40px;
 }
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    margin: 0;
+    background-color: black;
+    margin-top: 900px;
+    width: 1900px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.logo-footer {
+    position: relative;
+    margin-top: 1000px;
+    margin-left: 150px;
+}
+
+#kozofy {
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    margin-left: 210px;
+    margin-top: -96px;
+}
+
+#info {
+    opacity: 0.6;
+    z-index: 1;
+    position: absolute;
+    color: rgb(116, 116, 116);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin-left: 610px;
+    margin-top: -45px;
+}
+
+#real {
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 615px;
+    margin-top: 10px;
+}
+
+#ptsh{
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 615px;
+    margin-top: 40px;
+}
+
+#contact{
+    opacity: 0.6;
+    z-index: 1;
+    position: absolute;
+    color: rgb(116, 116, 116);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin-left: 1080px;
+    margin-top: -45px;
+}
+
+#mail{
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 1080px;
+    margin-top: 10px;
+}
+
+#tel {
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 1080px;
+    margin-top: 40px;
+}
+
+#social{
+    opacity: 0.6;
+    z-index: 1;
+    position: absolute;
+    color: rgb(116, 116, 116);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin-left: 1500px;
+    margin-top: -45px;
+}
+
+#insta {
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 1500px;
+    margin-top: 8px;
+}
+
+#twitter {
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-left: 1500px;
+    margin-top: 40px;
+}

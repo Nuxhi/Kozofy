@@ -226,3 +226,14 @@ body {
     margin-left: 1500px;
     margin-top: 40px;
 }
+.btn {
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    background-color: #00d9ff;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    right: -175px;
+}

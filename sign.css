@@ -1,77 +1,9 @@
-/* SIGN IN CSS */
-section {
-    width: 320px;
-    height: 420px;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50% , -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-}
-
-#user {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -60px;
-    left: 35%;
-    border-radius: 50%;
-}
-h1 {
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
-}
-
-input {
-    width: 100%;
-    margin-bottom: 20px;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid black;
-    height: 40px;
-    color: black;
-    font-size: 16px;
-    outline: none;
-}
-
-label {
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-button {
-    position: relative;
-    left: 3.5px;
-    width: 100%;
-    margin-bottom: 20px;
-    height: 40px;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-button:hover{
-    cursor: pointer;
-    transition: 0.5s;
-    width: 100%;
-    margin-bottom: 10px;
-    height: 40px;
-    border-radius: 10px;
-}
-
 /* NAVBAR & FOOTER CSS */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
 
 body {
-    background-image: url("https://1.bp.blogspot.com/-Wpc6EQdjui8/XXP_uaQsddI/AAAAAAAADL8/c7hMZ9QPRwcELvJVnBth3EA2wD_cVeIwwCLcBGAs/s1600/Flat_colorful_background.jpg");
+    background-color:grey ;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -143,3 +75,112 @@ body {
     position: relative;
     left: 40px;
 }
+
+
+
+
+
+
+/* SIGN IN CSS */
+section {
+    width: 450px;
+    height: 650px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+#user {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    left: 40%;
+    border-radius: 50%;
+}
+h1 {
+    font-family: 'Rubik', sans-serif;
+    margin: -15px;
+    padding: 0 0 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    outline: none;
+}
+
+label {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.checkbox #checkbox {
+    position: relative;
+    top: 5px;
+    left: -5px;
+    width: 25px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.checkbox-texte {
+    color: black;
+    position: relative;
+    top: -50px;
+    left: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#checkbox-texte {
+    color:#005a69;
+    font-size: 16px;
+}
+
+#checkbox-texte:hover {
+    color:#0390a8;
+    font-size: 16.5px;
+}
+
+#checkbox-texte-kozofy {
+    cursor: pointer;
+    text-decoration: none;
+    color:#000000;
+    font-size: 16px;
+}
+
+
+button {
+    position: relative;
+    left: 3.5px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+

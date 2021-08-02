@@ -16,10 +16,10 @@ body {
 }
 
 #Kozofy-Logo {
+    cursor: pointer;
     position: relative;
     margin-top: 10px;
     left: 100px;
-    cursor: pointer;
     height: 50px;
 }
 
@@ -84,18 +84,30 @@ body {
     top: 5px;
     width: 100%;
     height: 100%;
-    background: center no-repeat url('https://cdn.discordapp.com/attachments/645195494423003140/871748469520478218/BG-2.png'); 
+    background: center no-repeat url('https://media.discordapp.net/attachments/788340499345309696/871767033543532554/BG-3.png?width=1202&height=676'); 
     background-size: cover;
 }
 
-.main h1 {
+.main #The-freedom-plafrom  {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     font-size: 100px;
+    letter-spacing: 5px;
     color: #cc0000;
-    top: 150px;
-    margin:250px ;
+    top: 300px;
+    margin-left:250px ;
 }
+
+#starting-now {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: #cc0000;
+    top: 400px;
+    margin-left:740px ;
+}
+
 
 /* FOOTER */
 .footer {

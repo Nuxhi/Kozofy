@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- IMPORTS -->
+    <link rel="stylesheet" href="sigup.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="shortcut icon" href=".\img\just-Kozofy.ico">
+    <title>Kozofy - The Freedom Platform starting now</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            
+            <div class="inner">
+                
+                <div class="menu-gauche">
+                    <a href="index.html"> <img src=".\img\Kozofy1.png" id="Kozofy-Logo"> </a> 
+                </div>
+
+                <div class="menu-droite">
+                    <ul>
+                        <li class="li1"> <a href="download.html"> Télécharger</a></li>
+                        <li class="li1"> <a href="help.html"> Assistance </a></li>
+                    </ul>
+                        <div class="menu-connexion">
+                            <ul>
+                                <li> <a> | </a></li>
+                                <li> <a href="sigup.html"> S'inscrire </a></li>
+                                <li> <a href="sigin.html"> Connexion </a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- FORMULAIRE -->
+        <section>
+
+
+            <img src=".\img\user.png" id="user"></img>
+
+            <h1>Créer votre compte</h1>
+
+            <label>E-Mail</label>
+            <input type="text" name="Mail" placeholder="Votre e-mail">
+
+            <label>Nom d'utilisateur</label>
+            <input type="text" name="Username" placeholder="Votre nom d'utilisateur">
+
+            <label>Mot de passe</label>
+            <input type="password" name="Password" placeholder="Votre mot de passe">
+            
+            <div class="date-data">
+                <label>Date de naissance</label>
+                <input type="date" id="date" min="1950-01-01" max="2010-12-31" required>
+                <span class="validity"></span>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox"/> 
+                    <div class="checkbox-texte">
+                        J'ai lu et accepté les <a href="test.html" id="checkbox-texte"> Condition d'Utilisation </a> et la <a href="index.html" id="checkbox-texte"> politique de Confidentialité </a>  de <a href="index.html
+                        " id="checkbox-texte-kozofy"> Kozofy </a>
+                    </div>
+            </div>
+            
+            
+            <button>Je m'inscris</button>
+        </section>
+</body>
+</html>

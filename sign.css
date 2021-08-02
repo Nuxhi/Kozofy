@@ -71,6 +71,7 @@ button:hover{
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
 
 body {
+    background-image: url("https://1.bp.blogspot.com/-Wpc6EQdjui8/XXP_uaQsddI/AAAAAAAADL8/c7hMZ9QPRwcELvJVnBth3EA2wD_cVeIwwCLcBGAs/s1600/Flat_colorful_background.jpg");
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -116,7 +117,7 @@ body {
 
 .menu, .inner, ul, li, a:hover{
     transition: 0.5s;
-    color: #cc0000;
+    color: #00d9ff;
     font-size: 19px;
 }
 

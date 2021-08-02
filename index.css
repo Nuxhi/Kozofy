@@ -30,7 +30,7 @@ body {
     margin: auto;
     
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 
     list-style: none;
     display:inline-block;
@@ -39,7 +39,7 @@ body {
 .menu, .inner, ul, li, a:hover{
     transition: 0.5s;
     color: #cc0000;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .menu-gauche {
@@ -51,19 +51,17 @@ body {
     float:right;
 }
 
+.menu-connexion {
+    float:right;
+}
+
 .menu-droite ul li a {
     text-decoration: none;
     padding: 0px;
     margin: 0px 10px;
 }
 
-.hb {
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 1727px;
-    color: white;
-}
-.hb:hover{
-    transition: 0.5s;
-    color: #cc0000;
+.li1 {
+    position: relative;
+    left: 40px;
 }

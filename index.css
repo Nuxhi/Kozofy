@@ -16,6 +16,7 @@ body {
 }
 
 #Kozofy-Logo {
+    transition: 0.2s;
     position: relative;
     margin-top: 10px;
     left: 100px;
@@ -107,6 +108,7 @@ body {
     top: 400px;
     margin-left:840px ;
 }
+
 
 
 /* FOOTER */

@@ -1,3 +1,4 @@
+/* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
@@ -5,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* NAVBAR */
 .inner {
     width: 97%;
     margin: auto;
@@ -45,14 +46,23 @@ body {
     float:left;
 }
 
-
 .menu-droite {
     float:right;
 }
-
 .menu-droite ul li a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0px;
     margin: 0px 10px;
+}
+
+.hb {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 1727px;
+    color: white;
+}
+.hb:hover{
+    transition: 0.5s;
+    color: #cc0000;
 }

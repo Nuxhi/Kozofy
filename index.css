@@ -92,22 +92,22 @@ body {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     font-size: 100px;
-    color: #00d9ff;
-    top: 150px;
     letter-spacing: 5px;
-    margin:250px ;
+    color: #00d9ff;
+    top: 300px;
+    margin-left:250px;
 }
 
 .main #sn {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     font-size: 100px;
-    color: #00d9ff;
-    top: 260px;
     letter-spacing: 5px;
-    left: 650px;
-    margin: 250px ;
+    color: #00d9ff;
+    top: 400px;
+    margin-left:840px ;
 }
+
 
 /* FOOTER */
 .footer {
@@ -154,6 +154,10 @@ body {
     margin-left: 615px;
     margin-top: 10px;
 }
+#real:hover {
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
+}
 
 #ptsh{
     z-index: 1;
@@ -163,6 +167,11 @@ body {
     font-size: 16px;
     margin-left: 615px;
     margin-top: 40px;
+}
+
+#ptsh:hover {
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
 }
 
 #contact{
@@ -186,6 +195,11 @@ body {
     margin-top: 10px;
 }
 
+#mail:hover {
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
+}
+
 #tel {
     z-index: 1;
     position: absolute;
@@ -194,6 +208,10 @@ body {
     font-size: 16px;
     margin-left: 1080px;
     margin-top: 40px;
+}
+#tel:hover{
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
 }
 
 #social{
@@ -217,6 +235,11 @@ body {
     margin-top: 8px;
 }
 
+#insta:hover{
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
+}
+
 #twitter {
     z-index: 1;
     position: absolute;
@@ -226,13 +249,19 @@ body {
     margin-left: 1500px;
     margin-top: 40px;
 }
+
+#twitter:hover{
+    text-decoration: underline #00d9ff;
+    transition: 0.4s;
+}
 .btn {
+    z-index: 1;
     border: none;
     border-radius: 50px;
     position: relative;
     background-color: #00d9ff;
     width: 140px;
-    height: 40px;
+    height: 30px;
     cursor: pointer;
     margin-top: 20px;
     right: -175px;

@@ -8,14 +8,18 @@ body {
 }
 
 .inner {
-    width: 97%;
+    width: 90%;
     margin: auto;
 }
 
 #Kozofy-Logo {
+    position: absolute;
+    left: 100px;
+    top: 10px;
     cursor: pointer;
     height: 50px;
 }
+
 
 .menu {
     background-color: black;

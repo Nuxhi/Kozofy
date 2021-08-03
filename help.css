@@ -293,6 +293,7 @@ body {
     font-weight: bold;
 }
 #cmr {
+    transition: 1s;
     position: relative;
     color: black;
     font-family: 'Rubik', sans-serif;
@@ -317,6 +318,7 @@ body {
     font-weight: bold;
 }
 #mdp {
+    transition: 1s;
     position: relative;
     color: black;
     font-family: 'Rubik', sans-serif;
@@ -341,6 +343,7 @@ body {
     font-weight: bold;
 }
 #ggl {
+    transition: 1s;
     position: relative;
     color: black;
     font-family: 'Rubik', sans-serif;

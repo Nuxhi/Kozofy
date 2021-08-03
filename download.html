@@ -5,7 +5,9 @@
     <!-- IMPORTS -->
     <link rel="stylesheet" href="download.css">
     <link rel="shortcut icon" href=".\img\just-Kozofy.ico">
-    <title>Kozofy - download now</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Kozofy - Télécharger Kozofy</title>
     
 </head>
 <body>
@@ -37,6 +39,7 @@
     
     <!-- main -->
     <div class="main">
+        <script src="txt.js"></script>
         <div class="texte-1">
             <!-- txt + image -->
             <h1>Télécharger et utiliser Kozofy <br> n'importe où sur <br> n'importe quel appareil</h1>
@@ -49,13 +52,23 @@
             <h2 class="h2-ios"> IOS </h2>
             <button id="btn-dl-mobile"> Télécharger</button>
             <img src=".\img\iphone.png" class="iphone-ios">
+                <div class="zone-2-txt" data-aos="fade-right" data-aos-duration="3000">
+                    <h2> Utiliser votre Iphone comme source de musique, et découvrir tous les fonctionnalités exclusives à l'appareil. </h2>
+                </div>
         </div>
 
         <div class="zone-3">
             <h2 class="h2-android"> android </h2>
             <button id="btn-dl-mobile"> Télécharger</button>
             <img src=".\img\samsung-color-.png" class="samsung-android">
+                <div class="zone-3-txt" data-aos="fade-left" data-aos-duration="1500">
+                <h2> Faite résonné le chant des oiseaux grace à votre téléphone Android, vous disposez d'un large choix d'outil pour combler vos ennuis.  </h2>
+                </div>
         </div>  
+
+        <div class="zone-4" data-aos="zoom-in">
+            <a href="download.html"> <button class="btn-dl-2"> <i class="fas fa-file-download"></i> Au lieu de hésiter essayer !</button></a>
+        </div>
     </div>
 
     <!-- FOOTER -->
@@ -84,5 +97,9 @@
             <p id="twitter"> Twitter : @KozofyOff</p>
         </div>
         <a href="signin.html"><button class="btn"> Je m'inscris</button></a>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

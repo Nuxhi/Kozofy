@@ -9,6 +9,9 @@ Icon : font awesome
 Font : Google Fonts 
 (https://fonts.google.com/)
 
+Animattion : 
+(https://michalsnik.github.io/aos/)
+
 🍇 | Nav font : 
 
            https://fonts.google.com/specimen/Rubik
@@ -28,5 +31,11 @@ Font : Google Fonts
                https://fontawesome.com/v5.15/icons/file-download?style=solid
                <i class="fas fa-file-download"></i>>
                
+👯‍♀️ | Animattion : https://michalsnik.github.io/aos/
 
+           https://michalsnik.github.io/aos/
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+           <script>
+                 AOS.init();
+           </script>

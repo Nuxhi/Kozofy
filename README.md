@@ -23,5 +23,7 @@ Sing-in icon : https://fontawesome.com/v5.15/icons/google?style=brands
                https://fontawesome.com/v5.15/icons/facebook?style=brands
                <i class="fab fa-facebook"></i>
 
+download icon : https://fontawesome.com/v5.15/icons/file-download?style=solid
+                <i class="fas fa-file-download"></i>
 
 

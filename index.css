@@ -77,9 +77,19 @@ body {
     left: 40px;
 }
 
-
-
 /* MAIN */
+
+.type {
+    font-size: 7rem;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    color: #00d9ff;
+    width: fit-content;
+    border-right: 3px solid #fff;
+    animation: blink 1s ease-in-out infinite;
+    top: 350px;
+    margin-left:140px ;
+}
 
 .main {
     top: 5px;
@@ -99,16 +109,11 @@ body {
     margin-left:250px;
 }
 
-.main #sn {
-    position: absolute;
-    font-family: 'Rubik', sans-serif;
-    font-size: 100px;
-    letter-spacing: 5px;
-    color: #00d9ff;
-    top: 400px;
-    margin-left:840px ;
+@keyframes blink{
+    50%{
+        border-right-color: transparent;
+    }
 }
-
 
 
 /* FOOTER */

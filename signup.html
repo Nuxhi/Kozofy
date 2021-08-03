@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- IMPORTS -->
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="shortcut icon" href=".\img\just-Kozofy.ico">
+    <title>Kozofy - Sing in !</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            
+            <div class="inner">
+                
+                <div class="menu-gauche">
+                    <a href="index.html"> <img src=".\img\Kozofy1.png" id="Kozofy-Logo"> </a> 
+                </div>
+
+                <div class="menu-droite">
+                    <ul>
+                        <li class="li1"> <a href="download.html"> Télécharger</a></li>
+                        <li class="li1"> <a href="help.html"> Assistance </a></li>
+                    </ul>
+                        <div class="menu-connexion">
+                            <ul>
+                                <li> <a> | </a></li>
+                                <li> <a href="signin.html"> S'inscrire </a></li>
+                                <li> <a href="signup.html"> Connexion </a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- FORMULAIRE -->
+        <section>
+
+            <img src=".\img\user.png" id="user"></img>
+
+            <h1>Connectez vous à votre compte </h1>
+
+            <label>Authentification</label>
+            <input type="text" name="Mail" placeholder="Votre e-mail / Votre nom d'utilisateur">
+
+            <label>Mot de passe</label>
+            <input type="password" name="Password" placeholder="Votre mot de passe">
+            <div class="fog-pass">
+                <a href="#" id="fog-pass"> Mot de passe oublié ?</a>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox"/> 
+                    <div class="checkbox-texte">
+                        Se souvenir de moi
+                    </div>
+            </div>
+            <div class="bnt-Authentification">
+                <button class="btn-google"> <i class="fab fa-google"></i> Continuer avec google </button>
+                <button class="btn-FB"> <i class="fab fa-facebook"></i> Continuer avec Facebook </button>
+            </div>
+            
+            <button class="btn-sing-in">Se connecter</button>
+        </section>
+</body>
+</html>

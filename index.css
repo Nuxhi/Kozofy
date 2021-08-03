@@ -85,8 +85,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color: #00d9ff;
     width: fit-content;
-    border-right: 3px solid #fff;
-    animation: blink 1s ease-in-out infinite;
+
     top: 350px;
     margin-left:140px ;
 }
@@ -108,13 +107,6 @@ body {
     top: 300px;
     margin-left:250px;
 }
-
-@keyframes blink{
-    50%{
-        border-right-color: transparent;
-    }
-}
-
 
 /* FOOTER */
 .footer {

@@ -16,3 +16,12 @@ Nav font : https://fonts.google.com/specimen/Rubik
 Nav icon : https://fontawesome.com/v5.15/icons/file-download?style=solid
            @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
            <i class="fas fa-file-download"></i>
+
+Sing-in icon : https://fontawesome.com/v5.15/icons/google?style=brands
+               <i class="fab fa-google"></i>
+               
+               https://fontawesome.com/v5.15/icons/facebook?style=brands
+               <i class="fab fa-facebook"></i>
+
+
+

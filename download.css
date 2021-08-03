@@ -83,6 +83,7 @@ body {
 
 .main .texte-1 {
     position: absolute;
+    background-position: center;
     color:black;
 
     font-family: 'Rubik', sans-serif;
@@ -94,6 +95,7 @@ body {
 
 .PC-illustration {
     position: absolute;
+    background-position: center;
     top: 20px;
     left: 750px;
     height: auto;
@@ -156,6 +158,15 @@ body {
     left: -25px;
     height: auto;
 }
+
+.zone-2-txt {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+
+    top: -500px;
+    left: 600px;
+}
 /* FIN - ZONE 2 */
 
 /* DEBUT- ZONE 3 */
@@ -187,6 +198,16 @@ body {
     left: 5px;
     height: 385px;
 }
+
+.zone-3-txt {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+
+    top: -250px;
+    left: -550px;
+}
+
 /* FIN - ZONE 3 */
 
 
@@ -211,6 +232,33 @@ body {
     box-shadow: 5px 5px 5px grey;
     border-radius: 50px;
 }
+
+/* début zone 4 */
+
+
+
+.btn-dl-2 {
+    cursor: pointer;
+    position: absolute;
+    transition: 0.5s;
+    
+    top: 2200px;
+    left: 750px;
+    width: 400px;
+    height: 75px;
+
+    border-radius: 150px;
+
+    font-size: 20px;
+    
+    background-color: #ffffff7e;
+}
+
+.btn-dl-2:hover{
+    transition: 0.5s;
+    border-color:#9900ff ;
+}
+
 
 /* FOOTER */
 

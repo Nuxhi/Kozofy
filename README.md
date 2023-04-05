@@ -2,15 +2,12 @@
 📀 Kozofy - The Freedom Platform is a training project that we do together to improve ourselves. Kozofy is a streaming music platform.
 
 
+[🪐] **Useful information :**
 
-Icon : font awesome 
-(https://fontawesome.com/)
+> - Icon : font awesome
+> - Font : Google Fonts 
+> - Animattion : michalsnik.github.io/aos
 
-Font : Google Fonts 
-(https://fonts.google.com/)
-
-Animattion : 
-(https://michalsnik.github.io/aos/)
 
 🍇 | Nav font : 
 

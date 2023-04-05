@@ -1,6 +1,7 @@
 # Kozofy
 📀 Kozofy - The Freedom Platform is a training project that we do together to improve ourselves. Kozofy is a streaming music platform.
 
+**This project goes back to several years ago, a lot of knowledge came into our head between time**
 
 [🪐] **Useful information :**
 
